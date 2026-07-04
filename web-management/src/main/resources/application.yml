@@ -1,0 +1,18 @@
+# 配置数据库的连接信息
+spring:
+  application:
+      name: web-management
+  # 数据库的连接信息
+  datasource:
+    url: jdbc:mysql://localhost:3306/tlias
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Z9LN92Z9LN92
+
+# Mybatis的日志输出配置
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#  开启驼峰命名映射开关，用于解决数据库字段名和实体属性名不一致导致的映射问题
+    map-underscore-to-camel-case: true
