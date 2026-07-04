@@ -5,5 +5,6 @@ public class gitTest {
         System.out.println("hello git!");
         System.out.println("hello dys!");
         System.out.println("hello zln!");
+        System.out.println("hello GGZ!");
     }
 }
